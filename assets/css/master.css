@@ -17,6 +17,9 @@
 .row{
   width: 100%
 }
+.second_main > .row > [class^="col_"]{
+  padding: 20px;
+}
 div[class^="col_"] > div{
   height: 100px;
 }
